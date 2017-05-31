@@ -33,4 +33,7 @@ dependencies {
     compile "org.jetbrains.anko:anko-common:$anko_version"
     compile 'org.jetbrains.anko:anko-sdk15:0.8.2' // sdk19, sdk21, sdk23 are also available
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+}
+buildscript {
 }
