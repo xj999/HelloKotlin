@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             }
             button("Button") {
                 onClick {
-                    e("error测试")
+                    e(1)
                     text.text=name.text
                     toast("${name.text}!") }
             }
